@@ -9,7 +9,7 @@ html, body {
 	color: #000000;
     font-family: 'Proxima Novo', Tahoma, Arial, Georgia, Verdana, Arial, Sans-Serif;
     font-size:14px;
-    padding: 0px 5px 5px 0px;
+    padding: 0px 5px 0px 5px;
 }
 
 #wrap {
