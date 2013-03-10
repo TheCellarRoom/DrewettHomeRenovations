@@ -9,6 +9,7 @@ html, body {
 	color: #000000;
     font-family: 'Proxima Novo', Tahoma, Arial, Georgia, Verdana, Arial, Sans-Serif;
     font-size:14px;
+    padding: 0px 5px 5px 0px;
 }
 
 #wrap {
@@ -22,7 +23,6 @@ html, body {
 nav {
 	text-align: right;
 	margin: auto;
-	height: 40px;
 	background: #ccc;
 	border-bottom: 6px solid #ccc;
 }
@@ -41,7 +41,7 @@ aside {
 	color: #000;
 }
 
-aside ul {list-style-type: none;}
+aside ul {list-style-type: none; margin:0px; padding:5px;}
 
 
 footer {
