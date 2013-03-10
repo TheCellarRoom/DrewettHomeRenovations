@@ -60,3 +60,4 @@ blockquote {padding-left: 10px;display: block;background: #f5f5fc;border: 1px so
 .alignleft{float:left;}
 .alignright{float:right;}
 hr{float:none; clear:both; width:95%; margin:5px auto;}
+td{cellpadding:2px;}
