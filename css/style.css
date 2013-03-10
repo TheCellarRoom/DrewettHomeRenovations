@@ -3,58 +3,13 @@ Description: Basic Bootstrapped theme
 Author: TheCellarRoom
 Author URI: http://www.thecellarroom.net
 */
-
-html, body {
-	background: #000000;
-	color: #000000;
-    font-family: 'Proxima Novo', Tahoma, Arial, Georgia, Verdana, Arial, Sans-Serif;
-    font-size:14px;
-    padding:0px;
-}
-
-#wrap {
-	border: 1px solid #000;
-	margin-left: auto;
-    margin-right:auto;
-    max-width:960px;
-	background-color: #fff;
-}
-
-nav {
-	text-align: right;
-	margin: auto;
-	background: #ccc;
-}
-
+html, body {background:#000;color:#000;font-family:"Proxima Novo",Tahoma,Arial,Verdana,Sans-Serif;font-size:14px;padding:0px;margin:0px;}
+#wrap {margin-left:auto;margin-right:auto;max-width:960px;background-color: #fff;}
 .container { padding: 0px 2px 0px 2px; margin: 0px 1px 0px 1px;}
-
-article {
-	color: #000;
-	float: left;
-	clear: left;
-}
-
-
-aside {	
-	/* Right Sidebar Properities */
-	background: #fff;
-	float: right;
-	color: #000;
-}
-
+article{float:left;clear:left;}
+aside {float:right;}
 aside ul {list-style-type: none; margin:0px; padding:5px;}
-
-
-footer {
-	/* Footer properities (check padding area for footpad) */
-	clear: both;
-	margin:0 auto auto 1em;
-	background: #fff;
-    color: #000;
-    text-align:center;
-    margin-top:20px;
-}
-
+footer {clear: both;margin:0 auto auto 1em;text-align:center;margin-top:20px;}
 blockquote {padding-left: 10px;display: block;background: #f5f5fc;border: 1px solid #cecece;}
 .aligncenter{display: block;margin-left: auto;margin-right: auto;}
 .alignleft{float:left;}
