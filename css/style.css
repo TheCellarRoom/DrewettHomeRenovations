@@ -17,3 +17,20 @@ blockquote {padding-left: 10px;display: block;background: #f5f5fc;border: 1px so
 .alignright{float:right;}
 hr{float:none; clear:both; width:95%; margin:5px auto;}
 td{cellpadding:2px;}
+.brandsmall {display:none;}
+
+@media (max-width: 480px) {
+.navbar .brand { display:none; }
+.navbar .brandsmall 
+{
+display: block;
+float: left;
+padding: 10px 20px 10px;
+margin-left: -20px;
+font-size: 20px;
+font-weight: 200;
+color: 
+#777777;
+text-shadow: 0 1px 0 
+#ffffff;}
+}
