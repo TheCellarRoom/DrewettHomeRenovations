@@ -3,14 +3,20 @@ CACHE MANIFEST
 
 # Explicitly cached 'master entries'.
 CACHE:
-/favicon.ico
-index.html
+
+/ico/apple-touch-icon-144-precomposed.png
+/ico/apple-touch-icon-114-precomposed.png
+/ico/apple-touch-icon-72-precomposed.png
+/ico/apple-touch-icon-57-precomposed.png
+/ico/favicon.png
 /css/style.css
 /css/bootstrap.css
 /css/responsive.css
 img/logo.png
 js/jquery.js
 js/bootstrap.min.js
+
+index.html
 
 # Resources that require the user to be online.
 NETWORK:
