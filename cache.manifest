@@ -15,8 +15,18 @@ CACHE:
 img/logo.png
 js/jquery.js
 js/bootstrap.min.js
-
-index.html
+/index.html
+/renovations.html
+/bathrooms.html
+/pool-room.html
+/404.html
+/garden-landscape.html
+/photo-studio.html
+/feedback.html
+/extensions.html
+/contact.html
+/bedroom-refurbishment.html
+/comparisons.html
 
 # Resources that require the user to be online.
 NETWORK:
@@ -26,4 +36,4 @@ NETWORK:
 # offline.jpg will be served in place of all images in images/large/
 # offline.html will be served in place of all other .html files
 FALLBACK:
-*.html /static.html
+
