@@ -10,7 +10,7 @@ index.html
 /css/responsive.css
 img/logo.png
 js/jquery.js
-js/bootstrap.js
+js/bootstrap.min.js
 
 # Resources that require the user to be online.
 NETWORK:
