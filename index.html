@@ -21,13 +21,27 @@
 <meta name="msapplication-TileColor" content="#0088cc">
 <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
 
-<meta name="apple-mobile-web-app-capable" content="no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
 <link rel="shortcut icon" href="/ico/favicon.png">
+<script>
+    	$(document).ready(function(){
+    if (("standalone" in window.navigator) && window.navigator.standalone) {
+      // For iOS Apps
+      $('a').on('click', function(e){
+        e.preventDefault();
+        var new_location = $(this).attr('href');
+        if (new_location != undefined && new_location.substr(0, 1) != '#' && $(this).attr('data-method') == undefined){
+          window.location = new_location;
+        }
+      });
+    }
+  });	
+</script>
 <title>Drewett Home Renovations - Building and renovations work in Gloucestershire and surrounding areas</title>
 </head>
 <body>
