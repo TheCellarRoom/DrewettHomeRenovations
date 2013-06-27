@@ -11,7 +11,7 @@
 <meta name="Language" content="English" />
 <meta name="Robots" content="All" />
 <meta name="google-site-verification" content="PJ65ikZLmbBkf4Uff3kshTvnq8OIsAaJdsY9ghHm8J8" />
-<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1"/>
+
 <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
 <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
@@ -21,26 +21,20 @@
 <meta name="msapplication-TileColor" content="#0088cc">
 <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
 
+<meta name="viewport" content="width=device-width; initial-scale=1; user-scalable=0"> 
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
+<link rel="apple-touch-startup-image" href="/ico/apple-touch-icon-144-precomposed.png" />
 <link rel="shortcut icon" href="/ico/favicon.png">
 <script>
-    	$(document).ready(function(){
-    if (("standalone" in window.navigator) && window.navigator.standalone) {
-      // For iOS Apps
-      $('a').on('click', function(e){
-        e.preventDefault();
-        var new_location = $(this).attr('href');
-        if (new_location != undefined && new_location.substr(0, 1) != '#' && $(this).attr('data-method') == undefined){
-          window.location = new_location;
-        }
-      });
-    }
-  });	
+// Disable app sliding.
+function noDrag(e) {
+e.preventDefault();
+}
 </script>
 <title>Drewett Home Renovations - Building and renovations work in Gloucestershire and surrounding areas</title>
 </head>
