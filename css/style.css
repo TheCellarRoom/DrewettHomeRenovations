@@ -23,7 +23,7 @@ td{cellpadding:2px;}
 .brandsmall {display:none;}
 
 @media (max-width: 480px) {
-#wrap {margin-top:10px;}
+#wrap {margin-top:8px;}
 .navbar .brand { display:none; }
 .navbar .brandsmall 
 {
